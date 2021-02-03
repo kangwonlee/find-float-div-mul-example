@@ -2,9 +2,9 @@ import numpy as np
 import pandas as pd
 
 
-def main():
+def main(minimum:int=1, maximum:int=20):
 
-  num_r = np.arange(1, 20+1)
+  num_r = np.arange(minimum, maximum+1)
   den_r = num_r
 
   num, den = np.meshgrid(num_r, den_r)
