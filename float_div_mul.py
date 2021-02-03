@@ -3,6 +3,7 @@ import pandas as pd
 
 
 def main():
+
   num_r = np.arange(1, 20+1)
   den_r = num_r
 
@@ -26,5 +27,6 @@ def main():
   
   return df.sort_values('mul len', ascending=False)
 
+
 if "__main__" == __name__:
-  main()
+  print(main())
